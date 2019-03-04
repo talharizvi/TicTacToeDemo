@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/inner_layout"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageButton
+            android:id="@+id/btn_1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/button_selector"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/button_selector"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_2"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_1"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_4"
+            app:layout_constraintTop_toBottomOf="@id/btn_2"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_5"
+            app:layout_constraintTop_toBottomOf="@id/btn_3"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_4"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_7"
+            app:layout_constraintTop_toBottomOf="@id/btn_5"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintLeft_toRightOf="@id/btn_8"
+            app:layout_constraintTop_toBottomOf="@id/btn_6"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
