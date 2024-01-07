@@ -1,6 +1,6 @@
 # TicTacToeDemo
 Play tic tac toe game with device
 
-![](https://github.com/TicTacToeDemo/8bjxtm.gif)
+![](https://github.com/TicTacToeDemo/movie-list.gif)
 
 
